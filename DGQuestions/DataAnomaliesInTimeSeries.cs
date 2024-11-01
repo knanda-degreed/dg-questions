@@ -26,6 +26,9 @@ public class DataAnomaliesInTimeSeries : IDegreedSolution
 
     private void DetectAnomalies(double[] inputArr, int windowSize, int threshold)
     {
+        Console.WriteLine("Input to question: "+ GetType());
+        Console.WriteLine("[" + string.Join(", ", inputArr) + "]");
+        
         if (inputArr.Length == 0)
         {
             return;
@@ -49,7 +52,7 @@ public class DataAnomaliesInTimeSeries : IDegreedSolution
             }
         }
         
-        Console.WriteLine("Output:");
+        Console.WriteLine("Output to question: "+ GetType());
         Console.WriteLine("[" + string.Join(", ", result) + "]");
     }
 }
