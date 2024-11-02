@@ -1,4 +1,4 @@
 /.idea/
 ./DGQuestions/.idea/
-./DGQuestions/obj/
-./DGQuestions/bin/
+DGQuestions/obj/
+DGQuestions/bin/
