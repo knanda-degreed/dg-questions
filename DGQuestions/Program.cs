@@ -4,7 +4,7 @@ public class Program
 {
     private static void Main(string[] args)
     {
-        List<IDegreedSolution> solutions = [new TopPerformerSelection()];
+        List<IDegreedSolution> solutions = [new LongestConsecutiveSequence()];
 
         foreach (var solution in solutions)
         {
