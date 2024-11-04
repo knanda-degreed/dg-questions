@@ -4,7 +4,7 @@ public class Program
 {
     private static void Main(string[] args)
     {
-        List<IDegreedSolution> solutions = [new DataAnomaliesInTimeSeries()];
+        List<IDegreedSolution> solutions = [new OptimizingRealTimeAnomalyDetection()];
 
         foreach (var solution in solutions)
         {
