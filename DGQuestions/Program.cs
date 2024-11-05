@@ -4,7 +4,7 @@ public class Program
 {
     private static void Main(string[] args)
     {
-        List<IDegreedSolution> solutions = [new SearchRotatedSortedArray()];
+        List<IDegreedSolution> solutions = [new FirstAndLastOccurrences()];
 
         foreach (var solution in solutions)
         {
