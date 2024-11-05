@@ -18,7 +18,7 @@ public class FirstAndLastOccurrences : IDegreedSolution
     public void Run()
     {
         var input = new[] { 1, 3, 5, 5, 5, 5, 7, 123, 125 };
-        var target = 7;
+        var target = 5;
         Console.WriteLine($"Input: arr = [{string.Join(",", input)}], x = {target}");
         Console.WriteLine(FindFirstAndLastOccurrences(input, target));
     }
@@ -50,7 +50,6 @@ public class FirstAndLastOccurrences : IDegreedSolution
                     left = mid + 1;
                 }
 
-                right = mid - 1;
             }
             else if (input[mid] < target)
             {
