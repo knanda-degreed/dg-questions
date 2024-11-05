@@ -4,7 +4,7 @@ public class Program
 {
     private static void Main(string[] args)
     {
-        List<IDegreedSolution> solutions = [new CoinChange()];
+        List<IDegreedSolution> solutions = [new SearchRotatedSortedArray()];
 
         foreach (var solution in solutions)
         {
